@@ -1,0 +1,10 @@
+C:\projects\maf\ConnectFour\ConnectFour.Model\bin\Debug\netstandard2.0\ConnectFour.Model.deps.json
+C:\projects\maf\ConnectFour\ConnectFour.Model\bin\Debug\netstandard2.0\ConnectFour.Model.dll
+C:\projects\maf\ConnectFour\ConnectFour.Model\bin\Debug\netstandard2.0\ConnectFour.Model.pdb
+C:\projects\maf\ConnectFour\ConnectFour.Model\obj\Debug\netstandard2.0\ConnectFour.Model.csproj.AssemblyReference.cache
+C:\projects\maf\ConnectFour\ConnectFour.Model\obj\Debug\netstandard2.0\ConnectFour.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\maf\ConnectFour\ConnectFour.Model\obj\Debug\netstandard2.0\ConnectFour.Model.AssemblyInfoInputs.cache
+C:\projects\maf\ConnectFour\ConnectFour.Model\obj\Debug\netstandard2.0\ConnectFour.Model.AssemblyInfo.cs
+C:\projects\maf\ConnectFour\ConnectFour.Model\obj\Debug\netstandard2.0\ConnectFour.Model.csproj.CoreCompileInputs.cache
+C:\projects\maf\ConnectFour\ConnectFour.Model\obj\Debug\netstandard2.0\ConnectFour.Model.dll
+C:\projects\maf\ConnectFour\ConnectFour.Model\obj\Debug\netstandard2.0\ConnectFour.Model.pdb

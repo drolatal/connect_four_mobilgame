@@ -1,0 +1,1 @@
+C:\projects\maf\ConnectFour\ConnectFour\ConnectFour.UWP\ConnectFour.UWP.csproj;x86

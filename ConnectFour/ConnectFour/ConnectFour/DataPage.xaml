@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConnectFour.DataPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Player One Name:"  HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            <Entry x:Name="_playerOneName"  Text="{Binding PlayerOneName, Mode=TwoWay}" ReturnCommand="{Binding SetPlayerNameCommand}"></Entry>
+            <Label Text="Player Two Name:"  HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            <Entry x:Name="_playerTwoName" Text="{Binding PlayerTwoName, Mode=TwoWay}" ReturnCommand="{Binding SetPlayerNameCommand}" Grid.Row="1"></Entry>
+
+            <Button x:Name="_setNamesButton" Text="SetNames"  Command="{Binding SetPlayerNameCommand}"></Button>
+            <Button x:Name="_playButton" Text="Play"  Command="{Binding NewGameCommand}"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConnectFour.MainPage">
+
+    <ContentPage.Content>
+        <Grid>
+            <Label x:Name="_playerOneName" Text="{Binding PlayerOneName}" HorizontalTextAlignment="Start" TextColor="White" FontSize="36"/>
+            <Label x:Name="_playerTwoName" Text="{Binding PlayerTwoName}"  HorizontalTextAlignment="End" TextColor="White" FontSize="36"/>
+            <FlexLayout BindableLayout.ItemsSource="{Binding Board}" Direction="Row" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" AlignItems="Stretch" AlignContent="Stretch" Wrap="NoWrap">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate>
+                        <FlexLayout BindableLayout.ItemsSource="{Binding}" Direction="Column" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" AlignItems="Stretch" AlignContent="Stretch" Wrap="NoWrap"
+                                FlexLayout.Grow="1000" >
+                            <BindableLayout.ItemTemplate>
+                                <DataTemplate>
+                                    <Frame Padding="0" Margin="0.5" FlexLayout.Grow="1000" FlexLayout.Shrink="0" FlexLayout.Basis="1" FlexLayout.AlignSelf="Stretch" BorderColor="Wheat">
+                                        <Frame.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding ThrowCircleCommand}" CommandParameter="{Binding}" />
+                                        </Frame.GestureRecognizers>
+
+                                        <Frame.Triggers>
+                                            <DataTrigger TargetType="Frame" Binding="{Binding Color}" Value="WHITE">
+                                                <Setter Property="BackgroundColor" Value="Transparent" />
+                                            </DataTrigger>
+                                            <DataTrigger TargetType="Frame" Binding="{Binding Color}" Value="GREEN">
+                                                <Setter Property="BackgroundColor" Value="ForestGreen" />
+                                            </DataTrigger>
+                                            <DataTrigger TargetType="Frame" Binding="{Binding Color}" Value="RED">
+                                                <Setter Property="BackgroundColor" Value="DarkRed" />
+                                            </DataTrigger>
+                                        </Frame.Triggers>
+
+                                        <Grid>
+                                            <Image Aspect="AspectFit">
+                                                <Image.Triggers>
+                                                    <DataTrigger TargetType="Image" Binding="{Binding Color}" Value="WHITE">
+                                                        <Setter Property="Source" Value="white.png" />
+                                                    </DataTrigger>
+                                                    <DataTrigger TargetType="Image" Binding="{Binding Color}" Value="RED">
+                                                        <Setter Property="Source" Value="red.png" />
+                                                    </DataTrigger>
+                                                    <DataTrigger TargetType="Image" Binding="{Binding Color}" Value="GREEN">
+                                                        <Setter Property="Source" Value="green.png" />
+                                                    </DataTrigger>
+                                                </Image.Triggers>
+                                            </Image>
+                                            <Label Text="{Binding X}"/>
+                                            <Label Text="{Binding Y}"/>
+                                        </Grid>
+                                    </Frame>
+                                </DataTemplate>
+                            </BindableLayout.ItemTemplate>
+                        </FlexLayout>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+            </FlexLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

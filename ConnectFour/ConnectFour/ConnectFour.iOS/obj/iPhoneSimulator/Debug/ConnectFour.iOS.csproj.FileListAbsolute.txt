@@ -1,0 +1,13 @@
+C:\projects\maf\ConnectFour\ConnectFour\ConnectFour.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\projects\maf\ConnectFour\ConnectFour\ConnectFour.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\projects\maf\ConnectFour\ConnectFour\ConnectFour.iOS\obj\iPhoneSimulator\Debug\actool\_ProcessedImageAssetsPath.items
+C:\projects\maf\ConnectFour\ConnectFour\ConnectFour.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\projects\maf\ConnectFour\ConnectFour\ConnectFour.iOS\obj\iPhoneSimulator\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
+C:\projects\maf\ConnectFour\ConnectFour\ConnectFour.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\projects\maf\ConnectFour\ConnectFour\ConnectFour.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\projects\maf\ConnectFour\ConnectFour\ConnectFour.iOS\obj\iPhoneSimulator\Debug\coremlc\_ProcessedCoreMLModelsPath.items
+C:\projects\maf\ConnectFour\ConnectFour\ConnectFour.iOS\obj\iPhoneSimulator\Debug\_ProcessedBundleResourcesPath.items
+C:\projects\maf\ConnectFour\ConnectFour\ConnectFour.iOS\obj\iPhoneSimulator\Debug\_ProcessedContentPath.items
+C:\projects\maf\ConnectFour\ConnectFour\ConnectFour.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\projects\maf\ConnectFour\ConnectFour\ConnectFour.iOS\obj\iPhoneSimulator\Debug\ConnectFour.iOS.csproj.AssemblyReference.cache
+C:\projects\maf\ConnectFour\ConnectFour\ConnectFour.iOS\obj\iPhoneSimulator\Debug\ConnectFour.iOS.csproj.CoreCompileInputs.cache

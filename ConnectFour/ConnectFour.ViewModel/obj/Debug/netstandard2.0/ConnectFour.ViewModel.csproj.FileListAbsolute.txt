@@ -1,0 +1,13 @@
+C:\projects\maf\ConnectFour\ConnectFour.ViewModel\bin\Debug\netstandard2.0\ConnectFour.ViewModel.deps.json
+C:\projects\maf\ConnectFour\ConnectFour.ViewModel\bin\Debug\netstandard2.0\ConnectFour.ViewModel.dll
+C:\projects\maf\ConnectFour\ConnectFour.ViewModel\bin\Debug\netstandard2.0\ConnectFour.ViewModel.pdb
+C:\projects\maf\ConnectFour\ConnectFour.ViewModel\bin\Debug\netstandard2.0\ConnectFour.Model.dll
+C:\projects\maf\ConnectFour\ConnectFour.ViewModel\bin\Debug\netstandard2.0\ConnectFour.Model.pdb
+C:\projects\maf\ConnectFour\ConnectFour.ViewModel\obj\Debug\netstandard2.0\ConnectFour.ViewModel.csproj.AssemblyReference.cache
+C:\projects\maf\ConnectFour\ConnectFour.ViewModel\obj\Debug\netstandard2.0\ConnectFour.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\maf\ConnectFour\ConnectFour.ViewModel\obj\Debug\netstandard2.0\ConnectFour.ViewModel.AssemblyInfoInputs.cache
+C:\projects\maf\ConnectFour\ConnectFour.ViewModel\obj\Debug\netstandard2.0\ConnectFour.ViewModel.AssemblyInfo.cs
+C:\projects\maf\ConnectFour\ConnectFour.ViewModel\obj\Debug\netstandard2.0\ConnectFour.ViewModel.csproj.CoreCompileInputs.cache
+C:\projects\maf\ConnectFour\ConnectFour.ViewModel\obj\Debug\netstandard2.0\ConnectFour.ViewModel.csproj.CopyComplete
+C:\projects\maf\ConnectFour\ConnectFour.ViewModel\obj\Debug\netstandard2.0\ConnectFour.ViewModel.dll
+C:\projects\maf\ConnectFour\ConnectFour.ViewModel\obj\Debug\netstandard2.0\ConnectFour.ViewModel.pdb
